@@ -6,7 +6,7 @@
 .mainContainer {
   background-color: gold;
   border: black solid 2px;
-  height: 100dvh;
+  height: 100vh;
   width: fit-content;
   margin: 10px;
   padding: 20px;
@@ -78,9 +78,10 @@ footer {
 
 .starEmployees {
   list-style-type: none;
-  padding: 20px;
-  margin: 20px;
-  align-items: center;
+  display: grid;
+  align-items: left;
+  justify-content: left;
+  margin-left: 100px;
 }
 
 img {
@@ -94,4 +95,25 @@ img {
 
 footer {
   align-items: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  align-items: center;
+}
+
+.moving {
+  float: right;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  position: absolute;
+  margin-right: 1000px;
+  margin-top: 50px;
+  margin-bottom: 0px;
 }

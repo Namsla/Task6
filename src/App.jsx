@@ -57,24 +57,33 @@ function App() {
           </ul>
         </div>
         <hr />
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe fugiat
+          laborum quidem optio sint itaque est consequatur repudiandae. Dolorem
+          debitis repudiandae officiis facere natus sunt, similique, sint ipsam
+          aliquid libero in facilis voluptas autem quis consequatur, laborum
+          aperiam dolore consectetur cupiditate accusamus possimus. Ex quis
+          magnam, minus nam aliquam tempore dolor alias accusantium ut? Illum
+          rem, illo inventore fugit molestiae, provident odit modi laborum sint
+          consectetur cupiditate quod hic dolorum natus ipsa mollitia? Magnam,
+          iusto aspernatur quos perferendis debitis earum iste. Eligendi
+          voluptatum consequuntur ipsa rem quisquam adipisci architecto quia
+          nihil aspernatur neque minus, temporibus qui, dolor molestias
+          exercitationem ipsum?
+          <img
+            className="moving"
+            src="https://s3-media0.fl.yelpcdn.com/bphoto/24eqXo9YlvHwAArSEcqTBg/300s.jpg"
+            alt="box picture"
+          />
+        </p>
+        <br />
+
         <div className="starEmployees">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            fugiat laborum quidem optio sint itaque est consequatur repudiandae.
-            Dolorem debitis repudiandae officiis facere natus sunt, similique,
-            sint ipsam aliquid libero in facilis voluptas autem quis
-            consequatur, laborum aperiam dolore consectetur cupiditate accusamus
-            possimus. Ex quis magnam, minus nam aliquam tempore dolor alias
-            accusantium ut? Illum rem, illo inventore fugit molestiae, provident
-            odit modi laborum sint consectetur cupiditate quod hic dolorum natus
-            ipsa mollitia? Magnam, iusto aspernatur quos perferendis debitis
-            earum iste. Eligendi voluptatum consequuntur ipsa rem quisquam
-            adipisci architecto quia nihil aspernatur neque minus, temporibus
-            qui, dolor molestias exercitationem ipsum?
-          </p>{" "}
-          <br />
           <h2>Employees of the year</h2>
+
           <li>{listingArray}</li>
+          <br />
         </div>
         <hr />
         <footer>We Drive, You Save! 2023 @Namkhang Tsamchoe </footer>
