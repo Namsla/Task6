@@ -40,9 +40,9 @@ function App() {
             </li>
           </ul>
         </div>
-
+        <hr />
         <div className="starEmployees">
-          <h3>Employees of the year</h3>
+          <h2>Employees of the year</h2>
           <li>{listingArray}</li>
         </div>
         <hr />

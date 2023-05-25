@@ -19,3 +19,65 @@ h1 {
   margin: 20px;
   background-color: blanchedalmond;
 }
+
+ul {
+  color: blueviolet;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.topBar {
+  display: flex;
+
+  .h2 {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+}
+header {
+  height: 10vh;
+  width: 100vw;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  gap: 50px;
+}
+
+header ul li {
+  display: inline;
+  padding: 40px;
+  text-decoration: none;
+  list-style: none;
+}
+
+li button {
+  background-color: blanchedalmond;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+
+footer {
+  margin: 40px;
+}
+
+.starEmployees {
+  list-style-type: none;
+  padding: 20px;
+  margin: 20px;
+}
