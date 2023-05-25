@@ -17,7 +17,6 @@ h1 {
   color: purple;
   padding: 10px;
   margin: 20px;
-  background-color: blanchedalmond;
 }
 
 ul {
@@ -64,6 +63,7 @@ li button {
   background-color: blanchedalmond;
   color: blueviolet;
   font-weight: bold;
+  height: fit-content;
 }
 
 h2 {
@@ -80,6 +80,7 @@ footer {
   list-style-type: none;
   padding: 20px;
   margin: 20px;
+  align-items: center;
 }
 
 img {
@@ -87,5 +88,10 @@ img {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  margin-left: 50px;
+  border: black solid 2px;
+  margin: 20px;
+}
+
+footer {
+  align-items: center;
 }
